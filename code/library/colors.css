@@ -1,0 +1,18 @@
+/*******************************
+  CSS Colors
+*******************************/
+:root {
+  --bg-color: #ffffff;
+  --secondary-bg-color: #d8efef;
+
+  --button-color: #ffffff;
+  --button-bg-color: #74b08a;
+  --button-border-color: #6fa483;
+  --button-shadow-color: hsla(0, 0%, 60%, 1);
+
+  --footer-color: #ffffff;
+  --footer-bg-color: #212629;
+
+  --card-bg-color: #38393b;
+  --card-shadow-color: hsla(0, 0%, 60%, 1);
+}

@@ -20,11 +20,18 @@ h5 {
   font-family: "Merriweather", Times New Roman, serif;
 }
 
-
 .button {
+  border-radius: 8px;
+  padding: 12px 24px;
 
+  color: var(--button-color);
+  border: 1px solid var(--button-border-color);
+  background-color: var(--button-bg-color);
+
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0 var(--button-shadow-color);
 }
-
 
 
 /*******************************
@@ -32,17 +39,47 @@ h5 {
 *******************************/
 
 .hero {
-
+  background-color: var(--secondary-bg-color);
+  padding: 8px 24px;
 }
 
 .page {
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-image: url('images/landscape-bg.png');
+}
 
+.card__table {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card__card {
+  width: 300px;
+  overflow: hidden;
+  border-radius: 4px;
+  margin: 24px 0;
+  box-shadow: 0px 0px 16px var(--card-shadow-color);
+}
+
+.card__logo {
+  background-color: var(--card-bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.card__desc {
+  padding: 16px;
 }
 
 .footer {
-
+  color: var(--footer-color);
+  background-color: var(--footer-bg-color);
+  padding: 8px 24px;
 }
-
 
 /*******************************
          Responsive

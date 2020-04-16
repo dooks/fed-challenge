@@ -7,6 +7,8 @@
   <link rel="stylesheet" type="text/css" href="library/reset.css">
   <link rel="stylesheet" type="text/css" href="library/fonts.css">
   <link rel="stylesheet" type="text/css" href="library/container.css">
+  <link rel="stylesheet" type="text/css" href="library/atomic.css">
+  <link rel="stylesheet" type="text/css" href="library/colors.css">
 
   <!-- Put your custom CSS in here !-->
   <link rel="stylesheet" type="text/css" href="index.css">
@@ -19,26 +21,119 @@
 <body>
 
   <div class="hero">
-    <div class="container">
-      <!-- Hero Section !--->
+    <div class="container flex-between">
+      <div class="flex-100-pct">
+        <img src="images/hero-logo.png" />
+      </div>
+
+      <div class="flex-60-pct p-top-64 p-bottom-32">
+
+        <!-- Hero Section !--->
+        <h1>Main Header</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu massa sit amet augue consectetur ullamcorper non ac massa.
+        </p>
+        <button class="button">Button Text</button>
+      </div>
+
+      <div class="flex-40-pct pos-relative">
+        <img class="pos-absolute width-100-pct" src="images/hero-graphic.png" />
+      </div>
     </div>
   </div>
 
-  <div class="page">
+  <div class="page p-top-128">
 
     <div class="container">
       <!-- Cards --->
+      <h2>Content Header</h2>
+
+      <div class="card__table">
+        <div class="card__card">
+          <div class="card__logo">
+            <img src="images/card-header-image.png" /></div>
+            <div class="card__desc">
+              <h3>Header 1</h3>
+              <p>
+                Maecenas eu mollis odio. Maecenas consequat tincidunt arcu in venenatis.
+              </p>
+            </div>
+        </div>
+
+        <div class="card__card">
+          <div class="card__logo">
+            <img src="images/card-header-image.png" /></div>
+            <div class="card__desc">
+              <h3>Header 2</h3>
+              <p>
+                Maecenas eu mollis odio. Maecenas consequat tincidunt arcu in venenatis.
+              </p>
+            </div>
+        </div>
+
+        <div class="card__card">
+          <div class="card__logo">
+            <img src="images/card-header-image.png" /></div>
+            <div class="card__desc">
+              <h3>Header 3</h3>
+              <p>
+                Maecenas eu mollis odio. Maecenas consequat tincidunt arcu in venenatis.
+              </p>
+            </div>
+        </div>
+
+        <div class="card__card">
+          <div class="card__logo">
+            <img src="images/card-header-image.png" /></div>
+            <div class="card__desc">
+              <h3>Header 4</h3>
+              <p>
+                Maecenas eu mollis odio. Maecenas consequat tincidunt arcu in venenatis.
+              </p>
+            </div>
+        </div>
+
+        <div class="card__card">
+          <div class="card__logo">
+            <img src="images/card-header-image.png" /></div>
+            <div class="card__desc">
+              <h3>Header 5</h3>
+              <p>
+                Maecenas eu mollis odio. Maecenas consequat tincidunt arcu in venenatis.
+              </p>
+            </div>
+        </div>
+
+        <div class="card__card">
+          <div class="card__logo">
+            <img src="images/card-header-image.png" /></div>
+            <div class="card__desc">
+              <h3>Header 6</h3>
+              <p>
+                Maecenas eu mollis odio. Maecenas consequat tincidunt arcu in venenatis.
+              </p>
+            </div>
+        </div>
+
+      </div>
     </div>
 
-    <div class="container">
+<div class="container p-vertical-128">
+      <!-- I didn't finish this in time -->
       <!-- Bottom CTA --->
+      <span>Varius nunc, sed ad odio at mauris id vulputate id ut orci nominae.</span>
+      <span>Nullam faucibus neque vitae accumsan porta luctus posuere.</span>
     </div>
 
   </div>
 
   <div class="footer">
     <div class="container">
-      <!-- Footer !--->
+      <div class="flex-start flex-align-center">
+        <!-- Footer !--->
+        <img src="images/hero-logo.png" />
+        <span class="m-left-8">© 2019 Qualia Labs, Inc. All Rights Reserved</span>
+      </div>
     </div>
   </div>
 

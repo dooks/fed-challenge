@@ -1,0 +1,72 @@
+/*******************************
+  Atomic Classes
+  Generally you would generate a set of atomic classes in SCSS/SASS using for loops
+
+  For this exercise I specified these manually when needed
+*******************************/
+
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.flex-100-pct {
+  flex-basis: 100%;
+}
+
+.flex-40-pct {
+  flex-basis: 40%;
+}
+
+.flex-60-pct {
+  flex-basis: 60%;
+}
+
+.flex-align-center {
+  align-items: center;
+}
+
+.pos-absolute {
+  position: absolute;
+}
+
+.pos-relative {
+  position: relative;
+}
+
+.width-100-pct {
+  width: 100%;
+}
+
+.p-bottom-32 {
+  padding-bottom: 32px;
+}
+
+.p-top-64 {
+  padding-top: 64px;
+}
+
+.p-top-128 {
+  padding-top: 128px;
+}
+
+.p-vertical-128 {
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+
+.m-left-8 {
+  margin-left: 8px;
+}
+
+.m-horizontal-16 {
+  margin-left: 16px;
+  margin-right: 16px;
+}

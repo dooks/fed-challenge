@@ -1,0 +1,23 @@
+Decisions I made
+
+* For the hero image, I chose to use a `position: relative > position: absolute` div so the image would stay in flow with the flex layout. This worked for the overlap and the behavior was exactly what I wanted, however this did not work so well for vertical alignment of the image when the width of the image itself is actually resized.
+
+* I did not have enough time to solve the bottom call to action element. I was going to use :first-child:after to target the first element and apply a `border-right` to create the separator
+
+I chose to use a combination of two styling tools -
+1) atomic classes
+2) BEM (`.block__element--modifier`)
+
+* I used atomic classes to showcase compositing elements out of attributes instead of tailor-making a class that will most likely only be used once.
+
+* The cards, however, could hypothetically be used across an application, so I chose BEM class styling. SCSS/SASS has the benefit of nesting the classes, but I didn't have that luxury here. Other than content, there is no visual variation between the cards, no `--modifier`s were needed.
+
+```
+.card {
+  &__table { ... }
+  &__desc { ... }
+  &__card { ... }
+}
+```
+
+* I did not have enough time to polish the responsive design. However, my decision to use flex layout for the hero covered most of the correct wrapping behavior, and worked perfectly for the card table.
